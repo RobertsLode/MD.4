@@ -1,0 +1,224 @@
+
+.section {
+    max-width: 1152px;
+    width: 100%;
+    background-color: white;
+}
+.header_links {
+    display: flex;
+    padding: 15px 70px;
+    flex-direction: row;
+    gap: 33px;
+    justify-content: end;
+
+}
+.header_links--text {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+.row_2 {
+    padding-top: 100px;
+    padding-bottom: 71px;
+}
+
+.hero_section_text {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 148px;
+    gap: 40px ;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.hero_section_text--h1 {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: flex;
+
+}
+.hero_section_text--p {
+    display: flex;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.hero_section_text--button {
+    
+    max-width: 208px;
+    height: 47px;
+    padding: 9px 20px 9px 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #FF6464;
+    border-radius: 2px;
+    border: transparent;
+        &:hover {
+            outline: 2px solid rgb(58, 107, 58);
+            cursor: pointer;
+        }
+        &:active {
+            background: #ff64645d;
+        }
+
+}
+.column_1 {
+    order: 0;
+}
+.column_2 {
+    order: 1;
+}
+.row_3 {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    background-image: url(assets/images/Rectangle\ 23.png);
+    
+    margin-left:0px ;
+    padding:70px 0px 30px 0px;
+}
+.row_3--box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px;
+    flex-direction: column;
+    gap: 15px;
+    background-color: aliceblue;
+    margin: 0px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.row_3--box-h2 {
+    display: flex;
+    text-align: start;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+.row_3--box-h3 {
+    display: flex;
+    text-align: start;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+.row_3--box-p {
+    display: flex;
+    text-align: start;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.row_3--box-svg {
+    padding: 0px 26px 0px 26px;
+}
+
+.works_text {
+    margin-top: 19px;
+    margin-left: 153px;
+    margin-bottom: 35px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+.row_4 {
+    width: 100%;
+    
+}
+.row_5 {
+    width:100%;
+}
+
+
+.line {
+    border-bottom: 1px solid #E0E0E0;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.row--title{
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+}
+
+.row--year{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #8695A4;
+}
+
+.row--paragraph{
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.row_5--box {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.row_6 {
+    width: 100%;
+}
+.footer_box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 51px;
+    padding-bottom: 54px;
+    gap: 26px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding-top: 51px;
+
+}
+.footer_text {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}

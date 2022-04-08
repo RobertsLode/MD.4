@@ -1,0 +1,17 @@
+
+
+@import 'flexgrid.scss';
+@import 'header.scss';
+@import 'media.scss';
+
+
+* {
+  margin: 0px;
+}
+
+
+body {
+  background-color: rgba(0, 0, 0, 0.144);
+  display: flex;
+  justify-content: center;
+}
