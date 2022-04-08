@@ -1,4 +1,4 @@
-@media screen and (max-width: 1022px) {
+@media screen and (max-width: 600px) {
     .column_1 {
         order: 1;
     }
@@ -56,5 +56,18 @@
     }
     .hero_section_text--button {
         margin-left: 85px;
+    }
+    .hero_section_text--p{
+    padding: 0px 1px;
+    }
+    .header_links {
+        padding: 15px 26px;
+    }
+    .header_links--text {
+        display: none;
+    }
+    .header_links--svg {
+        display: block;
+        align-self: flex-end;
     }
 }
